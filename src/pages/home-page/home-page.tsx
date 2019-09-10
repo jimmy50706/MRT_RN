@@ -73,7 +73,7 @@ export const HomePage: FC<RouteComponentProps> = ({ history }) => {
         <NavigatorButton title="行程規劃" />
         <NavigatorButton
           title="出口查詢"
-          onPress={() => history.push('/exit-search-page')}
+          onPress={() => history.push('/select-line-page')}
         />
       </ScrollView>
     </View>
